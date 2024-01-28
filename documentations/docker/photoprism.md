@@ -1,8 +1,25 @@
 ---
 description: How to install and setup Photoprism with Docker
+cover: >-
+  https://images.unsplash.com/photo-1597600159211-d6c104f408d1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxwcmlzbXxlbnwwfHx8fDE3MDY0NjMwNjB8MA&ixlib=rb-4.0.3&q=85
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Photoprism
+# 📷 PhotoPrism
 
 ### Prerequisites
 
