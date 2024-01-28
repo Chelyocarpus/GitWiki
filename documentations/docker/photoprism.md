@@ -43,6 +43,18 @@ For additonal info about the folder structure see [Setup Using Docker Compose](h
 * You can use the "Import" function to import complete folders.
 * To delete pictures you'll have to archieve them first.
 
+### Image Folders on Windows
+
+If you are using docker on Windows Subsystem for Linux (WSL2), you can access the images via hidden share:
+
+`\wsl$\docker-desktop-data\version-pack-data\community\docker\overlay2`
+
+The volums are also there at:
+
+`\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes`
+
+Source: [https://stackoverflow.com/a/68053068](https://stackoverflow.com/a/68053068)
+
 ### Unsolved Questions
 
 * How do i backup data?
