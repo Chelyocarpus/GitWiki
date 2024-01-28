@@ -2,7 +2,7 @@
 description: Laziness wins
 ---
 
-# 🔧 Install Linux for Dualboot without CD/DVD or USB-Drive
+# Install Linux for Dualboot without CD/DVD or USB-Drive
 
 When you don't want to burn a CD/DVD (or have an optical drive) or don't have a free USB-Stick / Drive on hand, this is the way.
 
@@ -12,12 +12,7 @@ There are as many Linux distributions as there are ice cream flavours, so get yo
 
 If you don't know any or can't decide which one to take here's a small selection:
 
-| Overview                                     | Download Page                                       |
-| -------------------------------------------- | --------------------------------------------------- |
-| [Linux Mint](https://linuxmint.com/)         | [Download Page](https://linuxmint.com/download.php) |
-| [Pop!\_OS](https://pop.system76.com/)        | [Download Page](https://pop.system76.com/)          |
-| [Plasma](https://kde.org/de/plasma-desktop/) | [Download Page](https://kde.org/de/distributions/)  |
-| [Zorin OS](https://zorin.com/os/)            | [Download Page](https://zorin.com/os/download/)     |
+<table><thead><tr><th width="326">Overview</th><th>Download Page</th></tr></thead><tbody><tr><td><a href="https://linuxmint.com/">Linux Mint</a></td><td><a href="https://linuxmint.com/download.php">Download Page</a></td></tr><tr><td><a href="https://pop.system76.com/">Pop!_OS</a></td><td><a href="https://pop.system76.com/">Download Page</a></td></tr><tr><td><a href="https://kde.org/de/plasma-desktop/">Plasma</a></td><td><a href="https://kde.org/de/distributions/">Download Page</a></td></tr><tr><td><a href="https://zorin.com/os/">Zorin OS</a></td><td><a href="https://zorin.com/os/download/">Download Page</a></td></tr></tbody></table>
 
 At this point you should be downloading a 1-3 GB big .iso file.
 
