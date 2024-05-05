@@ -71,7 +71,9 @@ Continue describing how to get to docker-compose
 
 ***
 
+### Update Paperless
 
+***
 
 ### Troubleshooting
 
