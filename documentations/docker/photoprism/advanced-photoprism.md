@@ -16,7 +16,7 @@ description: >-
    * Move the `rclone.exe` file to a directory of your choice (e.g., `C:\rclone`).
 3. **Add `rclone` to your PATH**:
 
-<figure><img src="../../../.gitbook/assets/grafik.png" alt=""><figcaption><p>Overview of Environment Variables</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/grafik (2).png" alt=""><figcaption><p>Overview of Environment Variables</p></figcaption></figure>
 
 * Open the Start menu and search for "Environment Variables" ("Systemsumgebungsvariablen" in german).
 * Click on "Edit the system environment variables".
@@ -27,7 +27,7 @@ description: >-
 Don't click on "New..", select "Path" and then click on "edit..." instead
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/grafik (1).png" alt=""><figcaption><p>Inside the "Path" variable</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/grafik (1) (1).png" alt=""><figcaption><p>Inside the "Path" variable</p></figcaption></figure>
 
 * Click "New" and add the path to your `rclone` directory (e.g., `C:\rclone`).
 * Click "OK" on all windows to apply the changes.
@@ -36,7 +36,7 @@ Don't click on "New..", select "Path" and then click on "edit..." instead
 Once everything is correctly set up, you can easily run "rclone" directly from the command line without specifying any path or navigating to a specific folder. This method also applies to other command-line programs.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/grafik (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/grafik (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 If rclone cannot be found, check the path to your rclone folder and/or restart the command line after adding the variable to "Path". For more information, check [Troubleshooting](advanced-photoprism.md#troubleshooting).
