@@ -45,17 +45,17 @@ GitHub Desktop
 
 Go to [https://github.com/paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) on [**GitHub**](#user-content-fn-1)[^1] to get the latest files for [**paperless-ngx**](#user-content-fn-2)[^2].
 
-<figure><img src="../../.gitbook/assets/grafik (3) (1).png" alt=""><figcaption><p>The screenshot displays the GitHub repository page for the paperless-ngx project, showing the "dev" branch with various folders and files, along with options to clone the repository using HTTPS, SSH, or GitHub CLI, and options to open it with GitHub Desktop or download it as a ZIP file.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (10).png" alt=""><figcaption><p>The screenshot displays the GitHub repository page for the paperless-ngx project, showing the "dev" branch with various folders and files, along with options to clone the repository using HTTPS, SSH, or GitHub CLI, and options to open it with GitHub Desktop or download it as a ZIP file.</p></figcaption></figure>
 
 Click on the green "Code" button. Choose "Open with GitHub Desktop" if you have [**GitHub Desktop**](#user-content-fn-3)[^3] installed. Otherwise, choose the "Download ZIP" option.
 
 {% tabs %}
 {% tab title="GitHub Desktop" %}
-<figure><img src="../../.gitbook/assets/grafik (5).png" alt=""><figcaption><p>This dialog is what you should see after you've pressed the "Open with GitHub Desktop" option</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (7).png" alt=""><figcaption><p>This dialog is what you should see after you've pressed the "Open with GitHub Desktop" option</p></figcaption></figure>
 
 Change the local path to your liking if you want to. Then click the blue "Clone" button.
 
-<figure><img src="../../.gitbook/assets/grafik (1) (1) (1).png" alt=""><figcaption><p>This overview is what you should see after you've pressed the blue "Clone" button. The screenshot shows the GitHub Desktop application interface with the paperless-ngx repository open and offering options to open the repository in an external editor, view the files in Explorer, or open the repository on GitHub.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (8).png" alt=""><figcaption><p>This overview is what you should see after you've pressed the blue "Clone" button. The screenshot shows the GitHub Desktop application interface with the paperless-ngx repository open and offering options to open the repository in an external editor, view the files in Explorer, or open the repository on GitHub.</p></figcaption></figure>
 
 You should see this overview after it has finished downloading successfully. To continue, we press the "Show in Explorer" button.
 {% endtab %}
@@ -73,7 +73,7 @@ For detailed instructions, refer to the official paperless-ngx installation guid
 
 \[Insert Introduction]&#x20;
 
-<figure><img src="../../.gitbook/assets/grafik (2) (1) (1).png" alt=""><figcaption><p>This is what you should see after pressing the "Show in Explorer" Button or opening the .zip file. The screenshot displays the directory structure and configuration files of the paperless-ngx project, its organization into folders for various components and a variety of configuration files for development tools and settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (9).png" alt=""><figcaption><p>This is what you should see after pressing the "Show in Explorer" Button or opening the .zip file. The screenshot displays the directory structure and configuration files of the paperless-ngx project, its organization into folders for various components and a variety of configuration files for development tools and settings.</p></figcaption></figure>
 
 Navigate to the `docker > compose` directory. For example, you can find it at `D:\paperless-ngx\docker\compose\`. This folder contains various Docker Compose files and related configurations essential for deploying and managing services using Docker.
 

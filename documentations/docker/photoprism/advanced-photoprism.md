@@ -27,7 +27,7 @@ description: >-
 Don't click on "New..", select "Path" and then click on "edit..." instead
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/grafik (1) (1).png" alt=""><figcaption><p>Inside the "Path" variable</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/grafik (3).png" alt=""><figcaption><p>Inside the "Path" variable</p></figcaption></figure>
 
 * Click "New" and add the path to your `rclone` directory (e.g., `C:\rclone`).
 * Click "OK" on all windows to apply the changes.
@@ -36,7 +36,7 @@ Don't click on "New..", select "Path" and then click on "edit..." instead
 Once everything is correctly set up, you can easily run "rclone" directly from the command line without specifying any path or navigating to a specific folder. This method also applies to other command-line programs.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/grafik (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/grafik (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 If rclone cannot be found, check the path to your rclone folder and/or restart the command line after adding the variable to "Path". For more information, check [Troubleshooting](advanced-photoprism.md#troubleshooting).
@@ -82,7 +82,7 @@ You might see the message "NOTICE: s3: s3 provider "other" not known - please se
 
 When everything is set up correctly, it will look like this:&#x20;
 
-<figure><img src="../../../.gitbook/assets/grafik (3).png" alt=""><figcaption><p>Our newly mounted drive. But wait a minute...</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/grafik (5).png" alt=""><figcaption><p>Our newly mounted drive. But wait a minute...</p></figcaption></figure>
 
 As you can see, the name is a bit off. You can fix it by hardcoding the name in the Windows Registry (not recommended) or mounting the bucket a bit differently:
 
@@ -92,7 +92,7 @@ rclone mount photoprism: X: --vfs-cache-mode full
 
 Will look like:
 
-<figure><img src="../../../.gitbook/assets/grafik (4).png" alt=""><figcaption><p>Now that looks better</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/grafik (6).png" alt=""><figcaption><p>Now that looks better</p></figcaption></figure>
 
 {% hint style="danger" %}
 This method creates a folder within the drive (X:\photoprism\\). All content must be placed in that folder.
