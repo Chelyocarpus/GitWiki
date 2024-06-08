@@ -12,3 +12,7 @@
 ```
 Start-Process -Wait -FilePath "Docker Desktop Installer.exe" -ArgumentList "install", "-accept-license", "--installation-dir=D:\Docker\Docker", "--wsl-default-data-root=D:\Docker\wsl", "--windows-containers-default-data-root=D:\\Docker"
 ```
+
+{% hint style="danger" %}
+It seems like installing automatic updates is breaking this.
+{% endhint %}
