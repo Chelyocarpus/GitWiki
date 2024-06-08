@@ -131,7 +131,7 @@ volumes:
       - D:\OneDrive\Anwendungen\paperless\consume:/usr/src/paperless/consume
 ```
 
-and paperless-ngx/Docker will do the rest.
+and paperless-ngx/Docker will handle the rest.
 
 ### Update Paperless
 
@@ -144,6 +144,24 @@ To update paperless, do the following:
 * [ ] Rename this file as 'docker-compose.yml'&#x20;
 * [ ] Run `docker compose pull`.
 * [ ] Run `docker compose up -d`.
+
+Or run this .bat script in a folder which contains your docker-compose.yml from the initial installation:
+
+```
+@echo off
+
+echo Pulling Docker images...
+
+docker compose pull
+
+echo:
+echo Restarting paperless-ngx...
+
+docker compose stop
+docker compose up -d
+
+echo Done.
+```
 
 ### Troubleshooting
 
