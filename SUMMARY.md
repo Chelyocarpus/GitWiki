@@ -6,6 +6,7 @@
 ## Documentations
 
 * [🐳 Docker](documentations/docker/README.md)
+  * [☁️ Nextcloud](documentations/docker/nextcloud.md)
   * [📷 PhotoPrism](documentations/docker/photoprism/README.md)
     * [📸 Advanced PhotoPrism](documentations/docker/photoprism/advanced-photoprism.md)
   * [🍃 Paperless-ngx](documentations/docker/paperless-ngx.md)
