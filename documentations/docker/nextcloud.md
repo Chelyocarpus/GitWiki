@@ -488,6 +488,59 @@ This setup allows you to run Nextcloud in a Docker container, install rclone for
 
 ***
 
+## Steps for Manual OAuth Token Setup in Rclone:
+
+1.  **Start the Configuration Process**:
+
+    * Run `rclone config` in your terminal to start the setup.
+
+    ```bash
+    rclone config
+    ```
+2. **Choose the Remote to Configure**:
+   * If you're adding a new remote, choose `n` for a new remote. Then follow the prompts to choose the storage provider (Google Drive, OneDrive, etc.).
+3. **When Prompted to Use Auto Config, Select No**:
+   *   During the setup, Rclone will ask:
+
+       ```
+       Use auto config?
+       ```
+   * Type `n` and press **Enter**. This tells Rclone you want to perform the OAuth setup manually.
+4. **Get the Authentication URL**:
+   *   Rclone will generate a URL for you. It will look something like this:
+
+       ```
+       Please go to the following link: https://accounts.google.com/o/oauth2/auth?client_id=...
+       ```
+   * Copy this URL and open it in your web browser.
+5. **Authorize Rclone**:
+   * In your browser, authorize Rclone to access your cloud storage by logging into your account and approving the access.
+6. **Receive the Code**:
+   *   After authorizing, you’ll be redirected to a page that displays a code. It will look something like:
+
+       ```
+       4/XXXXX
+       ```
+7. **Copy the Code into Rclone**:
+   *   Go back to your terminal and paste the code when Rclone prompts you for it:
+
+       ```
+       Enter verification code>
+       ```
+8. **Complete Configuration**:
+   * Rclone will verify the token and continue with the setup process.
+   * After it successfully obtains and verifies the OAuth token, it will save the configuration. Follow the remaining prompts for your specific remote.
+9. **Test the Configuration**:
+   *   Once completed, you can test your remote connection by running:
+
+       ```bash
+       rclone lsd <remote_name>:
+       ```
+
+This method bypasses the need to start a local web server and directly performs the OAuth authentication via a browser. Let me know if you encounter any issues!
+
+***
+
 > ok so how do i backup a named volume on windows?
 
 To back up a **named volume** on Docker for **Windows**, you need to copy the data from the Docker-managed volume to a location on your host machine. Since Docker manages named volumes internally, you can’t access them directly via the filesystem, but there are ways to extract the data using Docker commands.
