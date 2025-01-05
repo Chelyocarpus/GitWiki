@@ -12,3 +12,7 @@
   * [🍃 Paperless-ngx](documentations/docker/paperless-ngx.md)
 * [🐧 Linux](documentations/linux/README.md)
   * [Install Linux for Dualboot without CD/DVD or USB-Drive](documentations/linux/install-linux-for-dualboot-without-cd-dvd-or-usb-drive.md)
+* [🐍 Python](documentations/python/README.md)
+  * [Untitled](documentations/python/untitled.md)
+
+## Group 1
