@@ -1,4 +1,10 @@
-# Untitled
+---
+description: >-
+  A simple Python script with docTR is demonstrated, illustrating its
+  initialization, configuration, and usage for OCR tasks.
+---
+
+# Optical Character Recognition (OCR) with docTR
 
 From what I understand, the three primary OCR libraries available for Python are Tesseract, EasyOCR, and docTR.
 

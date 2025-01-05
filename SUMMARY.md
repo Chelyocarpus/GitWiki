@@ -13,6 +13,6 @@
 * [🐧 Linux](documentations/linux/README.md)
   * [Install Linux for Dualboot without CD/DVD or USB-Drive](documentations/linux/install-linux-for-dualboot-without-cd-dvd-or-usb-drive.md)
 * [🐍 Python](documentations/python/README.md)
-  * [Untitled](documentations/python/untitled.md)
+  * [Optical Character Recognition (OCR) with docTR](documentations/python/optical-character-recognition-ocr-with-doctr.md)
 
 ## Group 1
