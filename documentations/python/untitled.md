@@ -7,6 +7,10 @@ My testing has shown that docTR is the most efficient option, as it is easy to s
 Here is a simple script:
 
 ```python
+pip install python-doctr
+```
+
+```python
 from doctr.io import DocumentFile
 from doctr.models import ocr_predictor
 
